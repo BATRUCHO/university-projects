@@ -1,4 +1,4 @@
-package Curso_Java.Curso_Cliente_Servidor;
+package Proyectos.Curso_Cliente_Servidor;
 
 public enum Permiso {
     CREAR_USUARIO,
