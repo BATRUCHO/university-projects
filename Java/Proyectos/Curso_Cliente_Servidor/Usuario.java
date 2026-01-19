@@ -3,14 +3,14 @@ package Proyectos.Curso_Cliente_Servidor;
 import java.util.Objects;
 import java.sql.Date;
 
-public class Clase_Usuario extends Persona {
+public class Usuario extends Persona {
 
     private final int id;
     private String password;
     private static int contador_usuarios; 
-    private Clase_Rol rol;
+    private Rol rol;
 
-    public Clase_Usuario(String dni, Date fechaNacimiento, String nombre, String apellido, String email, String telefono, String password, Clase_Rol rol) {
+    public Usuario(String dni, Date fechaNacimiento, String nombre, String apellido, String email, String telefono, String password, Rol rol) {
 
         super(dni, fechaNacimiento, nombre, apellido, email, telefono);
         this.password = Objects.requireNonNull(password, "La contraseña no puede ser nula");
@@ -28,7 +28,7 @@ public class Clase_Usuario extends Persona {
     public static int getContadorUsuarios() {
         return contador_usuarios;
     }
-     public Clase_Rol getRol() {
+     public Rol getRol() {
         return rol;
     }
 
@@ -37,7 +37,7 @@ public class Clase_Usuario extends Persona {
     public void setPassword(String password) { // revisar temas de seguridad
         this.password = password;
     }
-    public void setRol(Clase_Rol rol) {  // revisar validaciones
+    public void setRol(Rol rol) {  // revisar validaciones
         if (rol == null) {
             throw new IllegalArgumentException("El rol no puede ser nulo");
         } 

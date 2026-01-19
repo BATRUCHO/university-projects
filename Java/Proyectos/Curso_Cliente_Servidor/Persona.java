@@ -21,22 +21,22 @@ public abstract class Persona {
     }
 
     // Getters
-    protected String getDni() {
+    public String getDni() {
         return dni;
     }
-    protected Date getFechaNacimiento() {
+    public Date getFechaNacimiento() {
         return fechaNacimiento;
     }
-    protected String getNombre() {
+    public String getNombre() {
         return nombre;
     }
-    protected String getApellido() {
+    public String getApellido() {
         return apellido;
     }
-    protected String getEmail() {
+    public String getEmail() {
         return email;
     }
-    protected String getTelefono() {
+    public String getTelefono() {
         return telefono;
     } 
 

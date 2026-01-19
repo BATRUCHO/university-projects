@@ -5,5 +5,5 @@ public enum Permiso {
     EDITAR_USUARIO,
     ELIMINAR_USUARIO,
     VER_USUARIO,
-    //Asignar rol permisos pendiente
 }
+
