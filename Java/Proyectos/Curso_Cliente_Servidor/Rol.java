@@ -8,9 +8,9 @@ public class Rol {
     private final String nombreRol;
     private String descripcion;  // descripcion podría ser final (si decides que no cambia)
     private boolean activo; // activo podría usarse para soft-disable de roles
-    private final Set<Permiso> permisosAsignados; // Podrías validar permisosAsignados ≠ null (más adelante)
+    private final Set<EstadoPermiso> permisosAsignados; // Podrías validar permisosAsignados ≠ null (más adelante)
 
-    public Rol(String nombreRol, String descripcion, boolean activo, Set<Permiso> permisosAsignados) {
+    public Rol(String nombreRol, String descripcion, boolean activo, Set<EstadoPermiso> permisosAsignados) {
         this.nombreRol = nombreRol;
         this.descripcion = descripcion;
         this.activo = activo;
@@ -25,7 +25,7 @@ public class Rol {
     public boolean isActivo() {
         return activo;
     }
-    public Set<Permiso> getPermisosAsignados() {
+    public Set<EstadoPermiso> getPermisosAsignados() {
         return EnumSet.copyOf(permisosAsignados);
     }
 }

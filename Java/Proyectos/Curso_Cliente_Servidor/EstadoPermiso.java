@@ -1,6 +1,6 @@
 package Proyectos.Curso_Cliente_Servidor;
 
-public enum Permiso {
+public enum EstadoPermiso {
     CREAR_USUARIO,
     EDITAR_USUARIO,
     ELIMINAR_USUARIO,
