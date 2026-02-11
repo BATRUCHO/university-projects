@@ -23,16 +23,8 @@ public class CuentaAhorro extends CuentaBancaria {
         return interes;
     }
 
-    // implementación de la interfaz IAuditable //
-    public String generarReporte() {
-        StringBuilder reporte = new StringBuilder();
-        reporte.append("----- Reporte de Cuenta de Ahorro -----\n");
-        reporte.append("Número de Cuenta: ").append(this.numeroCuenta).append("\n");
-        reporte.append("Titular: ").append(this.titular).append("\n");
-        reporte.append(String.format("Saldo Actual: $%.2f%n", this.saldo));
-        reporte.append(String.format("Tasa de Interés: %.2f%%%n", this.tasaInteres.multiply(BigDecimal.valueOf(100))));
-        System.out.println(reporte.toString());
-        return reporte.toString();
-    }
+    
+
+
     
 }
