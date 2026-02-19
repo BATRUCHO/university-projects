@@ -1,17 +1,21 @@
 package Practicas.practicas_gemini_java.practica1;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public abstract class CuentaBancaria implements IAuditable { 
+public abstract class CuentaBancaria implements IAuditable, Serializable { 
     
     protected String numeroCuenta;
     protected String titular;
     protected BigDecimal saldo;
+    private static  final long serialVersionUID = 1L;
+    
     
     protected CuentaBancaria(String numeroCuenta, String titular, BigDecimal saldo) {
         this.numeroCuenta = numeroCuenta;
         this.titular = titular;
         this.saldo = saldo;
+    
     }
 
     // constructor simplificado //
@@ -42,6 +46,7 @@ public abstract class CuentaBancaria implements IAuditable {
 
     // método para generar reporte //
 
+    @Override
     public void generarReporte() {
         StringBuilder reporte = new StringBuilder();
         reporte.append("----- Reporte de Cuenta Bancaria -----\n");
@@ -61,7 +66,7 @@ public abstract class CuentaBancaria implements IAuditable {
             throw new SaldoInsuficienteException(this.saldo, monto);
         }
         this.saldo = this.saldo.subtract(monto);
-        System.out.println(String.format("Retiro exitoso de $%.2f. Nuevo saldo: $%.2f", monto, this.saldo));
+
     }
     
     // método de depósito //
@@ -78,6 +83,7 @@ public abstract class CuentaBancaria implements IAuditable {
     public String datosResumidos() {
         return String.format("Cuenta %s - Titular: %s - Saldo: $%.2f", this.numeroCuenta, this.titular, this.saldo);
     }
+
 
 
 }

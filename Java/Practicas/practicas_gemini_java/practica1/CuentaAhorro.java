@@ -2,7 +2,7 @@ package Practicas.practicas_gemini_java.practica1;
 
 import java.math.BigDecimal;
 
-public class CuentaAhorro extends CuentaBancaria {
+public class CuentaAhorro extends CuentaBancaria  {
 
     public BigDecimal tasaInteres;
 

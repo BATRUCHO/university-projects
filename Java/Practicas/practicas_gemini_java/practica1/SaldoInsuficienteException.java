@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class SaldoInsuficienteException extends BaseException {
 
-    private BigDecimal SaldoDisponible;
+    private  BigDecimal SaldoDisponible;
 
     public SaldoInsuficienteException(BigDecimal saldoDisponible, BigDecimal montoIntentado) {
         super(String.format("Saldo insuficiente: Saldo disponible $%.2f, monto intentado $%.2f", saldoDisponible, montoIntentado));

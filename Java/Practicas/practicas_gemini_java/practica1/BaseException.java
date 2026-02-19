@@ -2,7 +2,7 @@ package Practicas.practicas_gemini_java.practica1;
 
 public abstract class BaseException extends Exception { //clase base para excepciones personalizadas
     
-    private String mensaje;
+    private final String mensaje;
 
     public BaseException(String mensaje) {
         this.mensaje = mensaje;

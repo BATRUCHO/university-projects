@@ -1,8 +1,9 @@
 package Practicas.practicas_gemini_java.practica1;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Transaccion {
+public class Transaccion implements Serializable{
 
     private final int idTransaccion;
     private final TipoTransaccion tipoTransaccion;
