@@ -1,5 +1,6 @@
 package com.mycompany.casoestudio;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 /*
@@ -12,8 +13,7 @@ import java.time.LocalDate;
  * @author brayan
  */
 
-public abstract class Persona {
-
+public abstract class Persona implements Serializable {
     //Atributos
     protected final String id;
     protected LocalDate fechaNacimiento;

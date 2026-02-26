@@ -10,5 +10,7 @@ package com.mycompany.casoestudio;
  * @author braya
  */
 public enum RangosCalificacion {
+
+    REPROBADO, APROBADO, NOTABLE, SOBRESALIENTE
     
 }
