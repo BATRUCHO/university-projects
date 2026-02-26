@@ -5,6 +5,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+/**
+ * @author braya
+ */
 
 public class FileArchivo {
     private static final String RUTA_ARCHIVO = "C:\\Users\\braya\\Documents\\GitHub\\university-projects\\Java\\Proyectos\\CasoEstudio\\src\\main\\java\\com\\mycompany\\Files\\datos.dat";
@@ -29,3 +36,4 @@ public class FileArchivo {
         }
     }
 }
+

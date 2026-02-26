@@ -6,6 +6,13 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+/**
+ * @author braya
+ */
 public class ControladorEstudiante {
     private List<Estudiante> listaEstudiantes; 
 
@@ -29,7 +36,7 @@ public class ControladorEstudiante {
             if (est.getId().equals(id)) {
                 nuevaCal.determinarEstado();
                 est.getCalificaciones().add(nuevaCal);
-                FileArchivo.guardarDatos(listaEstudiantes); // Persistencia inmediata
+                FileArchivo.guardarDatos(listaEstudiantes); 
                 return;
             }
         }
