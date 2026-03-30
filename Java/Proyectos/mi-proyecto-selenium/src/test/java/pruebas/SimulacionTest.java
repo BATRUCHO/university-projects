@@ -54,7 +54,7 @@ public class SimulacionTest {
         // 3. Otros campos
         driver.findElement(By.id("userNumber")).sendKeys("88888888"); 
         
-        // 4. Hobbies (Usando labels por la misma razón que el género)
+        // 4. Hobbies 
         driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']")).click();
 
         // 5. Carga de archivos
