@@ -1,0 +1,16 @@
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteCliente\ClienteMain.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteCliente\Controlador\ControladorAlmacen.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteCliente\Controlador\ControladorCaja.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteCliente\Modelo_red\ClienteSocket.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteCliente\Vistas\VistaAlmacen.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteCliente\Vistas\VistaCaja.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteCliente\Vistas\VistaMenu.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteComun\modelos\Almacen.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteComun\modelos\Caja.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\PaqueteComun\red\MensajeRed.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\Servidor\BD\ConexionMySQL.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\Servidor\DAO\AlmacenDAO.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\Servidor\DAO\CajaDAO.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\Servidor\HiloCliente.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\Servidor\ServidorMain.java
+C:\Users\braya\Documents\GitHub\university-projects\Java\Practicas\Proyecto_EmpresaEnvios\src\main\java\cliente_servidor\Servidor\TestConexion.java
