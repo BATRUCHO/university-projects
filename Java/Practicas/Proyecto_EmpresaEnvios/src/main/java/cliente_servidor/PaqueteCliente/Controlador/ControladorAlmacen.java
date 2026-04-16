@@ -5,7 +5,6 @@ import java.util.List;
 
 import cliente_servidor.PaqueteCliente.Modelo_red.ClienteSocket;
 import cliente_servidor.PaqueteComun.modelos.Almacen;
-import cliente_servidor.PaqueteComun.modelos.Caja;
 import cliente_servidor.PaqueteComun.red.MensajeRed;
 
 public class ControladorAlmacen {
@@ -19,7 +18,6 @@ public class ControladorAlmacen {
     public String registrarAlmacen(int cod, String lug, int cap){
         Almacen nuevo = new Almacen(cod ,lug, cap);
         MensajeRed peticion = new MensajeRed("INSERTAR_ALMACEN", nuevo, false, null);
-
         MensajeRed respuesta = clienteSocket.enviarPeticion(peticion);
         return respuesta.isEstadoExito() ? "✅ Guardado" : "❌ Error: " + respuesta.getMensajeRespuesta();
 
