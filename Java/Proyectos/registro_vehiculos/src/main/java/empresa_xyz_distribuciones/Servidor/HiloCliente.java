@@ -13,7 +13,7 @@ import empresa_xyz_distribuciones.Servidor.DAO.CombustibleDAO;
 import empresa_xyz_distribuciones.Servidor.DAO.MantenimientoDAO;
 import empresa_xyz_distribuciones.Servidor.DAO.VehiculoDAO;
 
-public class HiloCliente extends Thread implements Runnable {
+public class HiloCliente extends Thread  {
     private Socket socketCliente;
     private ObjectInputStream entrada;
     private ObjectOutputStream salida;
@@ -76,9 +76,6 @@ public class HiloCliente extends Thread implements Runnable {
                 case "BUSCAR_VEHICULO_PLACA":
                     String placaBusqueda = (String) peticion.getPayload();
                     return new MensajeRed("BUSCAR_VEHICULO_PLACA", vehiculoDAO.buscarPorPlaca(placaBusqueda), true, "Encontrado");    
-
-
-
 
                 // ---- MÓDULO MANTENIMIENTO ----
                 case "REGISTRAR_MANTENIMIENTO":
